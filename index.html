@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live Clock</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar py-4 bg-body-tertiary">
+    <div class="container-fluid">
+      <span class="navbar-text">
+        <h1><span class="live">Live</span> Clock</h1>
+      </span>
+    </div>
+  </nav>
+  
+  <!-- ------------ -->
+
+  <!-- ------------ -->
+  <!-- Body  -->
+  
+  <div class="container py-4">
+    <div class="card bg-#262626 mx-auto">
+      <!-- <img src="clock-time-time.jpg" class="card-img-top" alt="Clock Image"> -->
+      <div class="clock-box" style="height: 270px;">
+        <div class="center-box">
+          <div class="clock">
+
+            <div class="number number-1" style="--rotation:1"><b>1</b></div>
+            <div class="number number-2" style="--rotation:2"><b>2</b></div>
+            <div class="number number-3" style="--rotation:3"><b>3</b></div>
+            <div class="number number-4" style="--rotation:4"><b>4</b></div>
+            <div class="number number-5" style="--rotation:5"><b>5</b></div>
+            <div class="number number-6" style="--rotation:6"><b>6</b></div>
+            <div class="number number-7" style="--rotation:7"><b>7</b></div>
+            <div class="number number-8" style="--rotation:8"><b>8</b></div>
+            <div class="number number-9" style="--rotation:9"><b>9</b></div>
+            <div class="number number-10" style="--rotation:10"><b>10</b></div>
+            <div class="number number-11" style="--rotation:11"><b>11</b></div>
+            <div class="number number-12" style="--rotation:12"><b>12</b></div>
+
+          </div>
+          <div class="hand_circle"></div>
+          <div class="hand_container">
+            <div class="hand"></div>
+            <!-- <div class="hand_circle"></div> -->
+          </div>
+          <div class="hand_container-2">
+            <div class="hand-1"></div>
+          </div>
+          <div class="hand_container-3">
+            <div class="hand-2">
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="card-body text-center">
+        <h2 class="card-title text-center text-white">Current Time is : <span id="time"></span></h2>
+        <!-- <p class="card-text">We are here to show you the time fo different Countries</p> -->
+        <button id="btn-b" class="btn btn-primary my-3" onclick="changeTime()">Formate(24hr/12hr)</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+<!-- <script src="/clock-project/script.js"></script> -->
+<script src="script.js" type="text/javascript"></script>
+</html>
