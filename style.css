@@ -42,7 +42,7 @@ span.navbar-text {
 }
 .card-body{
     background-image: linear-gradient(180deg, transparent, #000);
-    border-radius: 62px;
+    border-radius: 80px;
 }
 
 #time{
